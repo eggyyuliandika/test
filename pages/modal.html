@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../stayles/styles.css" />
+  <body>
+    <div class="w3-container">
+      <button
+        onclick="document.getElementById('id01').style.display='block'"
+        class="w3-button w3-black"
+      >
+        Details
+      </button>
+
+      <div id="id01" class="w3-modal">
+        <div class="w3-modal-content">
+          <div class="w3-container">
+            <span
+              onclick="document.getElementById('id01').style.display='none'"
+              class="w3-span"
+              >&times;</span
+            >
+            <div class="detProdDeco">
+              <div class="wrapProdDeco">
+                <div class="imgProdDeco">
+                  <img src="../publicts/dec5.jpg" />
+                </div>
+                <div class="contProdDeco">
+                  <h4>Tanaman Hias</h4>
+                  <h1>G-2 Chefs Knife with Sharpener</h1>
+                  <h2>Rp 300.000,-</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Deserunt consectetur repellendus, aut consequuntur repellat
+                    ea molestias quas eum enim sequi.
+                  </p>
+                  <div class="profProdDeco">
+                    <img src="../publicts/human1.jpg" />
+                    <h3>Hery</h3>
+                  </div>
+                  <a href="../pages/form.html">
+                    <button>Kirim pesan</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
